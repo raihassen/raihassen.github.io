@@ -13,14 +13,14 @@ Preparing for Tech Interviews\n
 [3]: http://redd.it/we565
 [Highest rate company for internship 2015][4]
 [4]: http://www.glassdoor.com/blog/25-highest-rated-companies-internships-2015/
-Interviewing at Facebook
-http://www.insidefacebook.com/2008/12/16/interviewing-at-facebook-advice-engineering-hiring-manager-dave-fetterman/
-What it¹s like to work at Facebook
-http://thenextweb.com/facebook/2011/05/15/what-its-like-to-work-at-facebook
+[Interviewing at Facebook]
+(http://www.insidefacebook.com/2008/12/16/interviewing-at-facebook-advice-engineering-hiring-manager-dave-fetterman/)
+[What it¹s like to work at Facebook]
+(http://thenextweb.com/facebook/2011/05/15/what-its-like-to-work-at-facebook)
 Facebook Bootcamp
-https://www.facebook.com/notes/facebook-engineering/facebook-engineering-bootcamp/177577963919
-https://www.facebook.com/notes/facebook-engineering/bootcamp-growing-culture-at-facebook/249415563919
-http://www.bloomberg.com/video/inside-facebook-s-engineering-bootcamp-i8gg~WZFR7ywI4nlSgJJKw.html
+(https://www.facebook.com/notes/facebook-engineering/facebook-engineering-bootcamp/177577963919)
+(https://www.facebook.com/notes/facebook-engineering/bootcamp-growing-culture-at-facebook/249415563919)
+(http://www.bloomberg.com/video/inside-facebook-s-engineering-bootcamp-i8gg~WZFR7ywI4nlSgJJKw.html)
 Hackamonth: Mixing Things Up
 https://www.facebook.com/note.php?note_id=10150161285048920
 The All-Night Hackathon Is Back!

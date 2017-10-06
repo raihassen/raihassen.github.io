@@ -90,10 +90,9 @@ Also take a look at the sites below, which have sample questions which are quite
 
 * Check out Inside Bloomberg, to see what's happening globally at Bloomberg!
 
-* See how the Bloomberg Terminal has evolved over the years - Bloomberg Terminal timeline - <>
+* See how the Bloomberg Terminal has evolved over the years - Bloomberg Terminal timeline
 
-<a href="https://www.youtube.com/watch?v=l3l7IPMKraU&feature=youtu.be" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l3l7IPMKraU" frameborder="0" allowfullscreen></iframe>
 
 * See how the reconstructed Roman Temple of Mithras will look in our new office in London!  https://www.youtube.com/watch?v=L0tBB9W506g  
 

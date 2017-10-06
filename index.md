@@ -2,13 +2,13 @@ Preparing for Tech Interviews
 ======
 # Facebook
 
-* [Facebook Code Lab:](https://codelab.interviewbit.com/index/)
+* [Facebook Code Lab](https://codelab.interviewbit.com/index/)
 
-* [Facebook Engineering Page:](https://www.facebook.com/Engineering/notes)
+* [Facebook Engineering Page](https://www.facebook.com/Engineering/notes)
 
-* [Facebook Careers Page:](http://www.facebook.com/careers)
+* [Facebook Careers Page](http://www.facebook.com/careers)
 
-* [Important Statistics:](http://newsroom.fb.com)
+* [Important Statistics](http://newsroom.fb.com)
 
 + [Quora-Facebook](http://www.quora.com/Facebook-1)
 
@@ -71,7 +71,7 @@ Preparing for Tech Interviews
 - [A recorded coaching session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
 - [Google Research (incl. publications by Googlers)](https://research.google.com/)
 - [Google Students Homepage](https://careers.google.com/students/)
-- [Take a look at this Cracking the Coding video. ](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+- [Take a look at this Cracking the Coding video.](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
 
 _Also take a look at the sites below, which have sample questions which are quite similar to those which you will experience in your interviews:_
 * <https://leetcode.com/>

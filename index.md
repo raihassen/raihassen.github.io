@@ -79,7 +79,7 @@ Also take a look at the sites below, which have sample questions which are quite
 * <https://www.codeforces.com/>
 * <https://www.hackerrank.com/>
 * <https://www.topcoder.com>
-	To best prepare (this is a must!) go onto  www.topcoder.com  Start with a TopCoder HS Single Round Match (SRM) or two and then move on to a standard TopCoder SRM if you can. The SRMs can take anywhere between 30 minutes and a couple of hours  & try to practice as much as you can: 1 hour a day will make a big difference to getting you interview ready
+	... _To best prepare (this is a must!) go onto  www.topcoder.com  Start with a TopCoder HS Single Round Match (SRM) or two and then move on to a standard TopCoder SRM if you can. The SRMs can take anywhere between 30 minutes and a couple of hours  & try to practice as much as you can: 1 hour a day will make a big difference to getting you interview ready_
 * <http://code.google.com/codejam/contests.html>
 * <http://projecteuler.net/>
 

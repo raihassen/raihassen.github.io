@@ -58,3 +58,17 @@ Wanna practice a coding puzzle?
 <http://projecteuler.net/problems>
 [How to Crush Your Coding Interview](https://www.facebook.com/video.php?v=10152735777427200)
 
+
+# Google
+
+["Cracking the Coding Interview"](https://www.amazon.com/gp/product/0984782850/ref=as_li_tl?Pre-Order+on+Amazon=Now+Available+on+Amazon) is definitely my top resource! 
+[A helpful blog to take a look at](http://steve-yegge.blogspot.co.uk/2008/03/get-that-job-at-google.html) - 100% read this 
+[Google code style guides](https://github.com/google/styleguide)
+[Android style guide](https://source.android.com/source/code-style)
+[A recorded coaching session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+Also take a look at the sites below, which have sample questions which are quite similar to those which you will experience in your interviews:
+•	<www.oj.leetcode.com/>
+•	<www.codeforces.com/>
+•	<www.hackerrank.com/>
+
+

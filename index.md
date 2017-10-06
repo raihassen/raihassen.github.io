@@ -4,16 +4,15 @@ Preparing for Tech Interviews\n
 *Facebook*
 [Facebook Code Lab:](https://codelab.interviewbit.com/index/)
 [Facebook Engineering Page:](https://www.facebook.com/Engineering/notes)
-Facebook Careers Page:
-http://www.facebook.com/careers
-Important Statistics:
-http://newsroom.fb.com 
-Quora-Facebook
-http://www.quora.com/Facebook-1
-AMA ­ Facebook Engineer, Serkan
-http://redd.it/we565
-Highest rate company for internship 2015
-http://www.glassdoor.com/blog/25-highest-rated-companies-internships-2015/
+[Facebook Careers Page:](http://www.facebook.com/careers)
+[Important Statistics:][1]
+[1]: http://newsroom.fb.com 
+[Quora-Facebook][2]
+[2]: http://www.quora.com/Facebook-1
+[AMA ­ Facebook Engineer, Serkan][3]
+[3]: http://redd.it/we565
+[Highest rate company for internship 2015][4]
+[4]: http://www.glassdoor.com/blog/25-highest-rated-companies-internships-2015/
 Interviewing at Facebook
 http://www.insidefacebook.com/2008/12/16/interviewing-at-facebook-advice-engineering-hiring-manager-dave-fetterman/
 What it¹s like to work at Facebook

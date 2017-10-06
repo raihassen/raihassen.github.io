@@ -5,51 +5,42 @@ Preparing for Tech Interviews\n
 [Facebook Code Lab:](https://codelab.interviewbit.com/index/)
 [Facebook Engineering Page:](https://www.facebook.com/Engineering/notes)
 [Facebook Careers Page:](http://www.facebook.com/careers)
-[Important Statistics:][1]
-[1]: http://newsroom.fb.com 
-[Quora-Facebook][2]
-[2]: http://www.quora.com/Facebook-1
-[AMA ­ Facebook Engineer, Serkan][3]
-[3]: http://redd.it/we565
-[Highest rate company for internship 2015][4]
-[4]: http://www.glassdoor.com/blog/25-highest-rated-companies-internships-2015/
-[Interviewing at Facebook]
-(http://www.insidefacebook.com/2008/12/16/interviewing-at-facebook-advice-engineering-hiring-manager-dave-fetterman/)
+[Important Statistics:](http://newsroom.fb.com)
+[Quora-Facebook](http://www.quora.com/Facebook-1)
+[AMA ­ Facebook Engineer, Serkan](http://redd.it/we565)
+[Highest rate company for internship 2015](http://www.glassdoor.com/blog/25-highest-rated-companies-internships-2015/)
+[Interviewing at Facebook](http://www.insidefacebook.com/2008/12/16/interviewing-at-facebook-advice-engineering-hiring-manager-dave-fetterman/)
 [What it¹s like to work at Facebook]
 (http://thenextweb.com/facebook/2011/05/15/what-its-like-to-work-at-facebook)
 Facebook Bootcamp
 (https://www.facebook.com/notes/facebook-engineering/facebook-engineering-bootcamp/177577963919)
 (https://www.facebook.com/notes/facebook-engineering/bootcamp-growing-culture-at-facebook/249415563919)
 (http://www.bloomberg.com/video/inside-facebook-s-engineering-bootcamp-i8gg~WZFR7ywI4nlSgJJKw.html)
-Hackamonth: Mixing Things Up
-https://www.facebook.com/note.php?note_id=10150161285048920
-The All-Night Hackathon Is Back!
-https://www.facebook.com/note.php?note_id=31942383919 
-Building Timeline: Scaling up to hold your life story
-https://www.facebook.com/notes/facebookengineering/building-timeline-scaling-up-to-hold-your-life-story/10150468255628920?mid=5708769
-Q&A: Facebook engineering VP Jay Parikh explains what they look for in developers (and much more)
-http://www.geekwire.com/2012/qa-facebook-engineering director-jay-parikh-explains-developers/
-Research at Facebook: "Nothing Is Riskier than not Taking Risks"
-https://www.facebook.com/notes/facebookengineering/research-at-facebook-nothing-is-riskier-than-not-taking-risks/10150604394583920
-Ship early and ship twice as often
-https://www.facebook.com/notes/facebookengineering/ship-early-and-ship-twice-as-often/10150985860363920
-Get that job at Facebook!
-https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920
- How do we test new features?
-http://www.theverge.com/2012/8/8/3227202/facebook-lead-engineer-bosworth-user-testing
-Facebook Lures Top Talent with Compensation & Perks: Video
-http://www.bloomberg.com/video/facebook-lures-top-talent-with-compensation-perks-62WIhn4BSyWI9fzTzSz_iQ.html
-Intern of the week
-http://34st.com/article/2013/07/intern-of-the-week-dan-judd/
-AMA, Facebook Recruiting Team
-http://bit.ly/11GBVlA
-Intern & New Grad Opportunities
-https://www.facebook.com/video.php?v=745770375469976&permPage=1
+[Hackamonth: Mixing Things Up](https://www.facebook.com/note.php?note_id=10150161285048920)
+[The All-Night Hackathon Is Back!](https://www.facebook.com/note.php?note_id=31942383919)
+[Building Timeline: Scaling up to hold your life story](https://www.facebook.com/notes/facebookengineering/building-timeline-scaling-up-to-hold-your-life-story/10150468255628920?mid=5708769)
+[Q&A: Facebook engineering VP Jay Parikh explains what they look for in developers (and much more)](http://www.geekwire.com/2012/qa-facebook-engineeringdirector-jay-parikh-explains-developers/)
+[Research at Facebook: "Nothing Is Riskier than not Taking Risks"]
+(https://www.facebook.com/notes/facebookengineering/research-at-facebook-nothing-is-riskier-than-not-taking-risks/10150604394583920)
+[Ship early and ship twice as often]
+(https://www.facebook.com/notes/facebookengineering/ship-early-and-ship-twice-as-often/10150985860363920)
+[Get that job at Facebook!]
+(https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920)
+[ How do we test new features?]
+(http://www.theverge.com/2012/8/8/3227202/facebook-lead-engineer-bosworth-user-testing)
+[Facebook Lures Top Talent with Compensation & Perks: Video]
+(http://www.bloomberg.com/video/facebook-lures-top-talent-with-compensation-perks-62WIhn4BSyWI9fzTzSz_iQ.html)
+[Intern of the week]
+(http://34st.com/article/2013/07/intern-of-the-week-dan-judd/)
+[AMA, Facebook Recruiting Team]
+(http://bit.ly/11GBVlA)
+[Intern & New Grad Opportunities]
+(https://www.facebook.com/video.php?v=745770375469976&permPage=1)
 Wanna practice a coding puzzle?
-http://www.geeksforgeeks.org/forums/forum/interview-questions/
-http://www.careercup.com/page
-http://www.leetcode.com/
-http://projecteuler.net/problems
-How to Crush Your Coding Interview
-https://www.facebook.com/video.php?v=10152735777427200
+[http://www.geeksforgeeks.org/forums/forum/interview-questions/]
+[http://www.careercup.com/page]
+[http://www.leetcode.com/]
+[http://projecteuler.net/problems]
+[How to Crush Your Coding Interview]
+(https://www.facebook.com/video.php?v=10152735777427200)
 

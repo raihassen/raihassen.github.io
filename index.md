@@ -2,9 +2,11 @@
 *This page will be updated*
 Preparing for Tech Interviews\n
 *Facebook*
-[Facebook Code Lab:](https://codelab.interviewbit.com/index/)
-[Facebook Engineering Page:](https://www.facebook.com/Engineering/notes)
+[Facebook Code Lab:](https://codelab.interviewbit.com/index/).
+[Facebook Engineering Page:](https://www.facebook.com/Engineering/notes).
 [Facebook Careers Page:](http://www.facebook.com/careers)
+
+
 [Important Statistics:](http://newsroom.fb.com)
 [Quora-Facebook](http://www.quora.com/Facebook-1)
 [AMA ­ Facebook Engineer, Serkan](http://redd.it/we565)
@@ -12,9 +14,9 @@ Preparing for Tech Interviews\n
 [Interviewing at Facebook](http://www.insidefacebook.com/2008/12/16/interviewing-at-facebook-advice-engineering-hiring-manager-dave-fetterman/)
 [What it¹s like to work at Facebook](http://thenextweb.com/facebook/2011/05/15/what-its-like-to-work-at-facebook)
 Facebook Bootcamp
-[https://www.facebook.com/notes/facebook-engineering/facebook-engineering-bootcamp/177577963919]
-[https://www.facebook.com/notes/facebook-engineering/bootcamp-growing-culture-at-facebook/249415563919]
-[http://www.bloomberg.com/video/inside-facebook-s-engineering-bootcamp-i8gg~WZFR7ywI4nlSgJJKw.html]
+Links [https://www.facebook.com/notes/facebook-engineering/facebook-engineering-bootcamp/177577963919].
+Links [https://www.facebook.com/notes/facebook-engineering/bootcamp-growing-culture-at-facebook/249415563919].
+Links [http://www.bloomberg.com/video/inside-facebook-s-engineering-bootcamp-i8gg~WZFR7ywI4nlSgJJKw.html].
 [Hackamonth: Mixing Things Up](https://www.facebook.com/note.php?note_id=10150161285048920)
 [The All-Night Hackathon Is Back!](https://www.facebook.com/note.php?note_id=31942383919)
 [Building Timeline: Scaling up to hold your life story](https://www.facebook.com/notes/facebookengineering/building-timeline-scaling-up-to-hold-your-life-story/10150468255628920?mid=5708769)

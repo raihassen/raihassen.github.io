@@ -7,8 +7,10 @@ Preparing for Tech Interviews\n
 [Facebook Careers Page:](http://www.facebook.com/careers)
 
 
-[Important Statistics:](http://newsroom.fb.com)
-[Quora-Facebook](http://www.quora.com/Facebook-1)
+[Important Statistics:](http://newsroom.fb.com)--
+
+[Quora-Facebook](http://www.quora.com/Facebook-1)--
+
 [AMA ­ Facebook Engineer, Serkan](http://redd.it/we565)
 [Highest rate company for internship 2015](http://www.glassdoor.com/blog/25-highest-rated-companies-internships-2015/)
 [Interviewing at Facebook](http://www.insidefacebook.com/2008/12/16/interviewing-at-facebook-advice-engineering-hiring-manager-dave-fetterman/)

@@ -20,7 +20,7 @@ Preparing for Tech Interviews
 
 * [What it¹s like to work at Facebook](http://thenextweb.com/facebook/2011/05/15/what-its-like-to-work-at-facebook)
 
-Facebook Bootcamp
+### Facebook Bootcamp
 
 * <https://www.facebook.com/notes/facebook-engineering/facebook-engineering-bootcamp/177577963919]>
 * <https://www.facebook.com/notes/facebook-engineering/bootcamp-growing-culture-at-facebook/249415563919>
@@ -73,7 +73,7 @@ Facebook Bootcamp
 - [Google Students Homepage](https://careers.google.com/students/)
 - [Take a look at this Cracking the Coding video. ](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
 
-Also take a look at the sites below, which have sample questions which are quite similar to those which you will experience in your interviews:
+_Also take a look at the sites below, which have sample questions which are quite similar to those which you will experience in your interviews:_
 * <https://leetcode.com/>
 * <https://www.codeforces.com/>
 * <https://www.hackerrank.com/>

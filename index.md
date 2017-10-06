@@ -70,7 +70,8 @@ Wanna practice a coding puzzle?
 + [Android style guide](https://source.android.com/source/code-style)
 
 - [A recorded coaching session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
-
+- [Google Research (incl. publications by Googlers)](https://research.google.com/)
+- [Google Students Homepage](https://careers.google.com/students/)
 Also take a look at the sites below, which have sample questions which are quite similar to those which you will experience in your interviews:
 * <https://leetcode.com/>
 * <https://www.codeforces.com/>

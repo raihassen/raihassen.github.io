@@ -96,9 +96,11 @@ Also take a look at the sites below, which have sample questions which are quite
 
 * See how the reconstructed Roman Temple of Mithras will look in our new office in London!  https://www.youtube.com/watch?v=L0tBB9W506g  
 
-* What it's like to Intern at Bloomberg, as told through a Snapchat story https://www.youtube.com/watch?v=LttnVia4UIc 
+* What it's like to Intern at Bloomberg, as told through a Snapchat story
 
-* Read the full-edition Bloomberg Business article on 'What is Code?' http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LttnVia4UIc" frameborder="0" allowfullscreen></iframe>
 
-* Read how Bloomberg is impacting its customers, communities and the planet - http://www.bloomberg.com/bcause/content/uploads/sites/6/2015/06/15_0608-Impact-Report_Web.pdf
+* Read the full-edition Bloomberg Business article on 'What is Code?' <http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/>
+
+* Read how Bloomberg is impacting its customers, communities and the planet - <http://www.bloomberg.com/bcause/content/uploads/sites/6/2015/06/15_0608-Impact-Report_Web.pdf>
 End

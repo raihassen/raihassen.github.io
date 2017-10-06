@@ -2,10 +2,8 @@
 *This page will be updated*
 Preparing for Tech Interviews\n
 *Facebook*
-Facebook Code Lab:
-https://codelab.interviewbit.com/index/
-Facebook Engineering Page:
-https://www.facebook.com/Engineering/notes
+[Facebook Code Lab:](https://codelab.interviewbit.com/index/)
+[Facebook Engineering Page:](https://www.facebook.com/Engineering/notes)
 Facebook Careers Page:
 http://www.facebook.com/careers
 Important Statistics:

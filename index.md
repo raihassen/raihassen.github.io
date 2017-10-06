@@ -84,5 +84,19 @@ Also take a look at the sites below, which have sample questions which are quite
 * <http://code.google.com/codejam/contests.html>
 * <http://projecteuler.net/>
 
+# Bloomberg
 
+* [Bloomberg Labs](http://www.bloomberglabs.com/) provides a little more insight into the Research side of our R&D department. 
 
+* Check out Inside Bloomberg, to see what's happening globally at Bloomberg!
+
+* See how the Bloomberg Terminal has evolved over the years - Bloomberg Terminal timeline - https://www.youtube.com/watch?v=l3l7IPMKraU&feature=youtu.be
+
+* See how the reconstructed Roman Temple of Mithras will look in our new office in London!  https://www.youtube.com/watch?v=L0tBB9W506g  
+
+* What it's like to Intern at Bloomberg, as told through a Snapchat story https://www.youtube.com/watch?v=LttnVia4UIc 
+
+* Read the full-edition Bloomberg Business article on 'What is Code?' http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+
+* Read how Bloomberg is impacting its customers, communities and the planet - http://www.bloomberg.com/bcause/content/uploads/sites/6/2015/06/15_0608-Impact-Report_Web.pdf
+End

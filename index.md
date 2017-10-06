@@ -94,7 +94,7 @@ Also take a look at the sites below, which have sample questions which are quite
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l3l7IPMKraU" frameborder="0" allowfullscreen></iframe>
 
-* See how the reconstructed Roman Temple of Mithras will look in our new office in London!  https://www.youtube.com/watch?v=L0tBB9W506g  
+* [See how the reconstructed Roman Temple of Mithras will look in our new office in London!](https://www.youtube.com/watch?v=L0tBB9W506g)
 
 * What it's like to Intern at Bloomberg, as told through a Snapchat story
 

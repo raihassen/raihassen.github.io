@@ -72,6 +72,7 @@ Preparing for Tech Interviews
 - [Google Research (incl. publications by Googlers)](https://research.google.com/)
 - [Google Students Homepage](https://careers.google.com/students/)
 - [Take a look at this Cracking the Coding video.](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+- [Still want more links?](https://events.withgoogle.com/getahead-emea-2017/actions-for-the-week/#content)
 
 _Also take a look at the sites below, which have sample questions which are quite similar to those which you will experience in your interviews:_
 * <https://leetcode.com/>

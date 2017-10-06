@@ -1,8 +1,6 @@
-**Welcome to this page\n**
-*This page will be updated*
-Preparing for Tech Interviews-
-
-# Facebook Tech Interview Preparation Links
+Preparing for Tech Interviews
+======
+# Facebook
 
 [Facebook Code Lab:](https://codelab.interviewbit.com/index/)
 

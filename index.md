@@ -2,15 +2,15 @@ Preparing for Tech Interviews
 ======
 # Facebook
 
-[Facebook Code Lab:](https://codelab.interviewbit.com/index/)
+...[Facebook Code Lab:](https://codelab.interviewbit.com/index/)
 
-[Facebook Engineering Page:](https://www.facebook.com/Engineering/notes)
+...[Facebook Engineering Page:](https://www.facebook.com/Engineering/notes)
 
-[Facebook Careers Page:](http://www.facebook.com/careers)
+... [Facebook Careers Page:](http://www.facebook.com/careers)
 
-[Important Statistics:](http://newsroom.fb.com)
+* [Important Statistics:](http://newsroom.fb.com)
 
-[Quora-Facebook](http://www.quora.com/Facebook-1)
++ [Quora-Facebook](http://www.quora.com/Facebook-1)
 
 [AMA ­ Facebook Engineer, Serkan](http://redd.it/we565)
 
@@ -103,4 +103,3 @@ Also take a look at the sites below, which have sample questions which are quite
 * Read the full-edition Bloomberg Business article on 'What is Code?' <http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/>
 
 * Read how Bloomberg is impacting its customers, communities and the planet - <http://www.bloomberg.com/bcause/content/uploads/sites/6/2015/06/15_0608-Impact-Report_Web.pdf>
-End

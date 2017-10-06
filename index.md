@@ -72,9 +72,15 @@ Wanna practice a coding puzzle?
 - [A recorded coaching session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
 - [Google Research (incl. publications by Googlers)](https://research.google.com/)
 - [Google Students Homepage](https://careers.google.com/students/)
+- [Take a look at this Cracking the Coding video. ](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
 Also take a look at the sites below, which have sample questions which are quite similar to those which you will experience in your interviews:
 * <https://leetcode.com/>
 * <https://www.codeforces.com/>
 * <https://www.hackerrank.com/>
+* <https://www.topcoder.com>
+	To best prepare (this is a must!) go onto  www.topcoder.com  Start with a TopCoder HS Single Round Match (SRM) or two and then move on to a standard TopCoder SRM if you can. The SRMs can take anywhere between 30 minutes and a couple of hours  & try to practice as much as you can: 1 hour a day will make a big difference to getting you interview ready
+* <http://code.google.com/codejam/contests.html>
+* <http://projecteuler.net/>
+
 
 

@@ -72,7 +72,7 @@ Wanna practice a coding puzzle?
 - [A recorded coaching session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
 
 Also take a look at the sites below, which have sample questions which are quite similar to those which you will experience in your interviews:
-* <www.oj.leetcode.com/>
+* [www.oj.leetcode.com/]
 * <www.codeforces.com/>
 * <www.hackerrank.com/>
 

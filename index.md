@@ -101,5 +101,9 @@ _Also take a look at the sites below, which have sample questions which are quit
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LttnVia4UIc" frameborder="0" allowfullscreen></iframe>
 
 * Read the full-edition Bloomberg Business article on 'What is Code?' <http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/>
-
 * Read how Bloomberg is impacting its customers, communities and the planet - <http://www.bloomberg.com/bcause/content/uploads/sites/6/2015/06/15_0608-Impact-Report_Web.pdf>
+[http://www.careercup.com/page?pid=bloomberg-lp-interview-questions]
+[http://www.geeksforgeeks.org/bloomberg-interview-set-1-phone-interview/]
+[http://www.geeksforgeeks.org/bloomberg-interview-set-2-video-conference/]
+[http://www.geeksforgeeks.org/bloomberg-interview-set-3-for-software-development-programmer/]
+[http://www.geeksforgeeks.org/bloomberg-interview-experience-set-4-entry-level-software-engineeer/]

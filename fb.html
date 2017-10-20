@@ -1,0 +1,766 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:addthis="https://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <title>
+    Getting Started with Static Sites - Treehouse Blog  </title>
+
+  <link rel="shortcut icon" href="http://teamtreehouse.com/assets/favicon.png" />
+
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25670760-10']);
+  _gaq.push(['_trackPageview']);
+
+    (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+
+  </script>
+
+    <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 1017883234;
+  var google_conversion_label = "hbMzCI7rvAMQ4tSu5QM";
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+
+  <script src="//cdn.optimizely.com/js/136759817.js"></script>
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="You may have heard the buzz about so-called &quot;static&quot; websites. In this post I&#039;ll tell you what they are, what&#039;s the big deal, and what you need to know."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://blog.teamtreehouse.com/getting-started-static-sites" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Getting Started with Static Sites" />
+<meta property="og:description" content="You may have heard the buzz about so-called &quot;static&quot; websites. In this post we&#039;ll tell you what they are, what&#039;s the big deal, and what you need to know to build one." />
+<meta property="og:url" content="http://blog.teamtreehouse.com/getting-started-static-sites" />
+<meta property="og:site_name" content="Treehouse Blog" />
+<meta property="article:tag" content="css preprocessors" />
+<meta property="article:tag" content="github" />
+<meta property="article:tag" content="Haml" />
+<meta property="article:tag" content="markdown" />
+<meta property="article:tag" content="markup" />
+<meta property="article:tag" content="sass" />
+<meta property="article:tag" content="static sites" />
+<meta property="article:tag" content="web" />
+<meta property="article:section" content="Learn" />
+<meta property="article:published_time" content="2016-06-21T09:09:11+00:00" />
+<meta property="article:modified_time" content="2016-06-28T04:19:42+00:00" />
+<meta property="og:updated_time" content="2016-06-28T04:19:42+00:00" />
+<meta property="og:image" content="http://blog.teamtreehouse.com/wp-content/uploads/2016/06/147.jpeg" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="You may have heard the buzz about so-called &quot;static&quot; websites. In this post I&#039;ll tell you what they are, what&#039;s the big deal, and what you need to know."/>
+<meta name="twitter:title" content="Getting Started with Static Sites"/>
+<meta name="twitter:site" content="@treehouse"/>
+<meta name="twitter:image" content="http://blog.teamtreehouse.com/wp-content/uploads/2016/06/147.jpeg"/>
+<meta name="twitter:creator" content="@treehouse"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Treehouse Blog &raquo; Feed" href="http://blog.teamtreehouse.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Treehouse Blog &raquo; Comments Feed" href="http://blog.teamtreehouse.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Treehouse Blog &raquo; Getting Started with Static Sites Comments Feed" href="http://blog.teamtreehouse.com/getting-started-static-sites/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/blog.teamtreehouse.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='tm_clicktotweet-css'  href='http://blog.teamtreehouse.com/wp-content/plugins/click-to-tweet-by-todaymade/assets/css/styles.css?ver=4.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-syntax-css-css'  href='http://blog.teamtreehouse.com/wp-content/plugins/wp-syntax/css/wp-syntax.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-css'  href='//cloud.typography.com/7055252/762022/css/fonts.css?ver=4.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-css'  href='http://blog.teamtreehouse.com/wp-content/themes/treehouse-treehouse-blog-reboot-d52be032409979219bf3dc804312e918a26a251c/css/all.css?ver=4.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='addthis_all_pages-css'  href='http://blog.teamtreehouse.com/wp-content/plugins/addthis-all/frontend/build/addthis_wordpress_public.min.css?ver=4.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-add-custom-css-css'  href='http://blog.teamtreehouse.com?display_custom_css=css&#038;ver=4.5.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics-talk-content-tracking.js?ver=1.7.1'></script>
+<link rel='https://api.w.org/' href='http://blog.teamtreehouse.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.teamtreehouse.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.teamtreehouse.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='http://blog.teamtreehouse.com/?p=26219' />
+<link rel="alternate" type="application/json+oembed" href="http://blog.teamtreehouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblog.teamtreehouse.com%2Fgetting-started-static-sites" />
+<link rel="alternate" type="text/xml+oembed" href="http://blog.teamtreehouse.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblog.teamtreehouse.com%2Fgetting-started-static-sites&#038;format=xml" />
+<script type='text/javascript' data-cfasync='false'>var _mmunch = {'front': false, 'page': false, 'post': false, 'category': false, 'author': false, 'search': false, 'attachment': false, 'tag': false};_mmunch['post'] = true; _mmunch['postData'] = {"ID":26219,"post_name":"getting-started-static-sites","post_title":"Getting Started with Static Sites","post_type":"post","post_author":"287","post_status":"publish"}; _mmunch['postCategories'] = [{"term_id":1311,"name":"Learn","slug":"learn","term_group":0,"term_taxonomy_id":1316,"taxonomy":"category","description":"","parent":0,"count":1058,"filter":"raw","cat_ID":1311,"category_count":1058,"category_description":"","cat_name":"Learn","category_nicename":"learn","category_parent":0}]; _mmunch['postTags'] = [{"term_id":523,"name":"css preprocessors","slug":"css-preprocessors","term_group":0,"term_taxonomy_id":524,"taxonomy":"post_tag","description":"","parent":0,"count":6,"filter":"raw"},{"term_id":34,"name":"github","slug":"github","term_group":0,"term_taxonomy_id":34,"taxonomy":"post_tag","description":"","parent":0,"count":10,"filter":"raw"},{"term_id":1110,"name":"Haml","slug":"haml","term_group":0,"term_taxonomy_id":1112,"taxonomy":"post_tag","description":"","parent":0,"count":2,"filter":"raw"},{"term_id":401,"name":"markdown","slug":"markdown","term_group":0,"term_taxonomy_id":402,"taxonomy":"post_tag","description":"","parent":0,"count":5,"filter":"raw"},{"term_id":593,"name":"markup","slug":"markup","term_group":0,"term_taxonomy_id":594,"taxonomy":"post_tag","description":"","parent":0,"count":2,"filter":"raw"},{"term_id":249,"name":"sass","slug":"sass","term_group":0,"term_taxonomy_id":251,"taxonomy":"post_tag","description":"","parent":0,"count":19,"filter":"raw"},{"term_id":1590,"name":"static sites","slug":"static-sites","term_group":0,"term_taxonomy_id":1595,"taxonomy":"post_tag","description":"","parent":0,"count":2,"filter":"raw"},{"term_id":272,"name":"web","slug":"web","term_group":0,"term_taxonomy_id":274,"taxonomy":"post_tag","description":"","parent":0,"count":3,"filter":"raw"}]; _mmunch['postAuthor'] = {"name":"Leon Barnard","ID":287};</script><script data-cfasync="false" src="//a.mailmunch.co/app/v1/site.js" id="mailmunch-script" data-plugin="mc_mm" data-mailmunch-site-id="225735" async></script>
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+
+	var gtm4wp_scrollerscript_debugmode         = false;
+	var gtm4wp_scrollerscript_callbacktime      = 100;
+	var gtm4wp_scrollerscript_readerlocation    = 150;
+	var gtm4wp_scrollerscript_contentelementid  = "content";
+	var gtm4wp_scrollerscript_scannertime       = 60;
+	dataLayer.push({"pageTitle":"Getting Started with Static Sites - Treehouse Blog","pagePostType":"post","pagePostType2":"single-post","pageCategory":["learn"],"pageAttributes":["css-preprocessors","github","haml","markdown","markup","sass","static-sites","web"],"pagePostAuthor":"Leon Barnard","pagePostDate":"June 21, 2016","pagePostDateYear":"2016","pagePostDateMonth":"06","pagePostDateDay":"21","postID":26219});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PSZDDK');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->
+  <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("7b38bdec31b0d42dc60b2c77d946e5ad");</script><!-- end Mixpanel -->
+
+</head>
+
+<body class="single single-post postid-26219 single-format-standard">
+  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PSZDDK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->  <nav>
+  <section>
+    <a href="http://www.teamtreehouse.com" class="brand">
+      <svg class="treehouse-icon" viewBox="0 0 139 32" preserveAspectRatio="xMinYMin meet">
+        <g>
+          <path class="icon-treehouse" d="M42.8,21c-0.4,0.1-0.9,0.2-1.4,0.2c-1,0-1.4-0.6-1.4-1.6v-4.5h2.8c0.7,0,1.4-0.5,1.4-1.3s-0.6-1.3-1.4-1.3
+            H40V11c0-0.9-0.7-1.5-1.5-1.5S37,10.2,37,11v8.7c0,2.5,1.2,4.3,4,4.3c0.8,0,1.9-0.1,2.7-0.5c0.7-0.3,0.9-0.8,0.9-1.3
+            C44.6,21.5,43.9,20.8,42.8,21z M52.8,12.1c-0.4-0.1-1.2-0.2-1.9-0.2c-2.5,0-3.9,1.5-3.9,3.8v6.8c0,0.8,0.7,1.5,1.5,1.5
+            s1.5-0.7,1.5-1.5v-6.2c0-1,0.4-1.4,1.1-1.4c0.7,0,1.1,0.2,1.7,0.2c0.9,0,1.4-0.8,1.4-1.4C54.1,12.9,53.7,12.4,52.8,12.1z M61.1,11.9
+            c-2.8,0-4.8,1.8-5.1,4.7c0,0.7-0.1,1.9,0,2.8c0.2,2.8,2.2,4.7,5.2,4.7c1.4,0,2.7-0.3,3.5-0.8c0.6-0.4,0.7-0.8,0.7-1.2
+            c0-0.8-0.7-1.6-1.9-1.2c-0.7,0.3-1.5,0.5-2.3,0.5c-1.4,0-2.5-0.7-2.5-2.1V19h5.7c1,0,1.5-0.6,1.5-1.5V17C66,13.9,64,11.9,61.1,11.9z
+             M63,17h-4.2c0-1.5,0.7-2.5,2.3-2.5c1.4,0,2.2,0.9,2.1,2.2C63.2,16.9,63.2,17,63,17z M73.1,11.9c-2.8,0-4.8,1.8-5.1,4.7
+            c0,0.7-0.1,1.9,0,2.8c0.2,2.8,2.2,4.7,5.2,4.7c1.4,0,2.7-0.3,3.5-0.8c0.6-0.4,0.7-0.8,0.7-1.2c0-0.8-0.7-1.6-1.9-1.2
+            c-0.7,0.3-1.5,0.5-2.3,0.5c-1.4,0-2.5-0.7-2.5-2.1V19h5.7c1,0,1.5-0.6,1.5-1.5V17C78,13.9,76,11.9,73.1,11.9z M75,17h-4.2
+            c0-1.5,0.7-2.5,2.3-2.5c1.4,0,2.2,0.9,2.1,2.2C75.2,16.9,75.2,17,75,17z M123.6,16.9l-1.6-0.4c-1-0.2-1.3-0.5-1.3-1s0.5-0.9,1.6-0.9
+            c0.6,0,1.3,0.2,1.9,0.5c0.7,0.4,1.5,0.3,1.9-0.2c0.5-0.5,0.5-1.4-0.1-2c-0.8-0.6-2.2-1-3.6-1c-2.6,0-4.5,1.3-4.5,3.7
+            c0,1.9,1.4,2.9,3.2,3.4c0.9,0.2,0.8,0.2,1.6,0.4c0.9,0.2,1.3,0.6,1.3,1c0,0.6-0.5,1-1.7,1c-1,0-1.9-0.3-2.6-0.7
+            c-0.7-0.5-1.5-0.3-1.9,0.3c-0.4,0.6-0.3,1.4,0.3,1.8c0.8,0.7,2.1,1.3,4.2,1.3c2.6,0,4.6-1.4,4.6-3.8
+            C126.9,18.5,125.8,17.4,123.6,16.9z M137.5,19c1,0,1.5-0.6,1.5-1.5l0,0V17c0-3.1-2-5.1-4.9-5.1c-2.8,0-4.8,1.8-5.1,4.7
+            c0,0.7-0.1,1.9,0,2.8c0.2,2.8,2.2,4.7,5.2,4.7c1.4,0,2.7-0.3,3.5-0.8c0.6-0.4,0.7-0.8,0.7-1.2c0-0.8-0.7-1.6-1.9-1.2
+            c-0.7,0.3-1.5,0.5-2.3,0.5c-1.4,0-2.5-0.7-2.5-2.1V19H137.5z M134.1,14.5c1.4,0,2.2,0.9,2.1,2.2c0,0.2-0.1,0.3-0.2,0.3h-4.2
+            C131.8,15.5,132.6,14.5,134.1,14.5z M97.5,11.9c-3,0-5.2,1.9-5.5,4.5c-0.1,0.9-0.1,2.3,0,3.2c0.2,2.6,2.5,4.5,5.5,4.5
+            s5.2-1.9,5.4-4.5c0.1-0.9,0.1-2.2,0-3.1C102.7,13.8,100.5,11.9,97.5,11.9z M99.9,19.1c-0.1,1.3-1,2.1-2.4,2.1s-2.3-0.9-2.4-2.1
+            c0-0.6,0-1.6,0-2.2c0.1-1.3,1-2.1,2.4-2.1s2.3,0.9,2.4,2.1C100,17.5,100,18.5,99.9,19.1z M85.6,11.9c-1.1,0-2.3,0.4-2.7,0.9l0,0V9.6
+            c0-0.9-0.6-1.5-1.4-1.5s-1.4,0.7-1.4,1.5v12.9c0,0.8,0.7,1.5,1.5,1.5s1.4-0.7,1.4-1.5v-6.7c0.5-0.5,1.3-0.9,2.3-0.9
+            c1.2,0,1.9,0.7,1.9,2.1v5.5c0,0.9,0.6,1.6,1.4,1.6c0.9,0,1.5-0.7,1.5-1.6v-5.7C90,13.6,88.4,11.9,85.6,11.9z M113.6,12
+            c-0.8,0-1.5,0.7-1.5,1.5v7.1c-0.5,0.3-1.2,0.6-2.1,0.6c-1.2,0-2.1-0.7-2.1-2.1v-5.6c0-0.9-0.7-1.6-1.5-1.6c-0.9,0-1.4,0.7-1.4,1.6
+            v5.7c0,3.1,1.8,4.8,4.9,4.8c2.3,0,3.9-0.8,4.6-1.3c0.4-0.2,0.5-0.5,0.5-1v-8.2C115,12.7,114.4,12,113.6,12z"/>
+          <path class="icon-logo" d="M28.4,7c-0.4-0.2-1.3-0.6-2.3-1.2c-1.1-0.6-2.8,0.4-3.9,2.1l-1.9,3.2c-0.7,1.4-0.6,2.9,0.3,4.2l0.1,0.1
+            c0.9,1.3,2.1,2.4,2.4,2.8c0.2,0.2,0.4,0.6,0.5,0.9c0.3,1.2-0.3,2.3-1.5,2.6c-1.1,0.3-2.3-0.4-2.7-1.5c-0.1-0.3-0.1-0.6-0.1-0.9
+            c0.1-0.5-0.1-1.3-0.8-1.9c-0.7-0.8-2.1,0.7-2.5,2.1v0.1c-0.4,1.5-0.7,2.7-0.6,2.8c0,0.1,0.1,0.2,0.1,0.2c0.6,1.2,0.2,2.6-1,3.2
+            s-2.7,0.2-3.3-1s-0.2-2.6,1-3.2c0.1,0,0.1-0.1,0.2-0.1c0.1,0,0.3-0.7,0.6-1.4c0.2-0.7,0.4-1.3,0.4-1.3c0-0.1,0-0.2,0.1-0.2l1.2-4.2
+            l-1.2,2.5c-0.2-0.5-0.4-0.5-1-0.1c-0.3,0.2-0.9,0.7-1.1,0.9c-0.5,0.4-0.9,1.1-1.1,1.5c-0.1,0.3-0.3,0.5-0.5,0.7
+            c-0.9,0.8-2.3,0.6-3-0.3s-0.5-2.1,0.4-2.8c0.3-0.2,0.6-0.4,0.9-0.4c0.5-0.1,2.4-1.3,3.5-2c0.2-0.1,0.4-0.3,0.5-0.4l2.9-2.1l-2.6,1.4
+            c0,0-0.3,0-0.6,0c-0.8,0.1-1.8,0.2-2,0.5c-0.1,0.1-0.2,0.3-0.4,0.4c-0.8,0.4-2,0.2-2.7-0.6c-0.6-0.9-0.4-2,0.4-2.6
+            c0.5-0.3,0.9-0.4,1.3-0.4c0.7,0,2.5,0.4,4,0.1l0.4-0.1c1.5-0.3,3.3-1.5,4-2.9c0,0,0.7-1.3,1.6-2.7c0.9-1.5,0.8-3.1-0.1-3.7l-1.7-1
+            c-0.9-0.5-2.3-0.5-3.2,0L1.6,6.8C0.7,7.3,0,8.6,0,9.6v12.8c0,1,0.7,2.1,1.6,2.6l11.9,6.6c0.9,0.5,2.3,0.5,3.2,0l11.7-6.7
+            c0.9-0.5,1.6-1.6,1.6-2.6V9.6C30,8.6,29.3,7.5,28.4,7z"/>
+        </g>
+      </svg>
+    </a>
+    <div id="mobile-nav-toggle">
+      <a href="#" id="nav-toggle" data-nav-toggle>
+        <span class="hamburger"></span>
+      </a>
+    </div>
+    <a class="fixed-cta" href="https://teamtreehouse.com/subscribe/plans?trial=yes&cid=3842">Learn to code.<span> Start your free trial with Treehouse.</span></a>
+    <ul class="nav-list">
+      <li class="nav-item ">
+        <a href="http://blog.teamtreehouse.com/search" class="nav-anchor search">
+          <svg viewBox="0 0 24 24" preserveAspectRatio="xMinYMin meet">
+            <path id="XMLID_3_" fill="none" d="M15.8,9.2C15.8,5.8,13,3,9.6,3C6.1,3,3.4,5.8,3.4,9.2c0,3.4,2.8,6.2,6.2,6.2
+              C13,15.4,15.8,12.6,15.8,9.2z"/>
+            <path id="XMLID_10_" d="M23.2,21.4L16.7,15c1.3-1.6,2-3.6,2-5.8c0-5.1-4.1-9.2-9.2-9.2C4.5,0,0.4,4.1,0.4,9.2
+              c0,5.1,4.1,9.2,9.2,9.2c1.8,0,3.5-0.5,4.9-1.4l6.6,6.6c0.3,0.3,0.7,0.4,1.1,0.4s0.8-0.1,1.1-0.4C23.8,23,23.8,22,23.2,21.4z
+               M3.4,9.2C3.4,5.8,6.1,3,9.6,3c3.4,0,6.2,2.8,6.2,6.2c0,3.4-2.8,6.2-6.2,6.2C6.1,15.4,3.4,12.6,3.4,9.2z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a href="http://blog.teamtreehouse.com" class="nav-anchor">Home</a>
+      </li>
+      <li class="nav-item ">
+        <a href="#" id="subscribe-btn" class="nav-anchor">Subscribe</a>
+      </li>
+      <li class="nav-item nav-item-free-trial">
+        <a href="https://teamtreehouse.com/subscribe/plans?trial=yes&cid=3842" class="nav-anchor">Free trial</a>
+      </li>
+    </ul>
+  </section>
+</nav>
+<!-- Admin Nav
+  -->
+  <div class="page-container">
+
+<section style="background-image: url(http://blog.teamtreehouse.com/wp-content/uploads/2016/06/147.jpeg);"class="hero has-image-bg post-26219 post type-post status-publish format-standard has-post-thumbnail hentry category-learn tag-css-preprocessors tag-github tag-haml tag-markdown tag-markup tag-sass tag-static-sites tag-web"><h1 class="post-title"><small class="category"><a href="http://blog.teamtreehouse.com/category/learn">Learn</a></small>Getting Started with Static Sites</h1><p class="featured-image-cite"></p></section>
+
+  <section class="page-content">
+
+    <div class="row">
+
+      <div class="skinny-read">
+
+        <div class="meta">
+  <a href="http://blog.teamtreehouse.com/author/leon_barnard"><img alt='' src='http://0.gravatar.com/avatar/cd4e09e8a1a2a371af80595858c7c29f?s=80&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/cd4e09e8a1a2a371af80595858c7c29f?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /></a>
+  <p><strong><a href="http://blog.teamtreehouse.com/author/leon_barnard">Leon Barnard</a></strong><br><em>writes on June 21, 2016</em></p>
+</div>
+        <div class="at-above-post addthis_tool" data-url="http://blog.teamtreehouse.com/getting-started-static-sites"></div><p>You may have heard the <a href="https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/">buzz</a> about so-called &#8220;static&#8221; websites. In this post, I&#8217;ll tell you what they are, what&#8217;s the big deal, and what you need to know to build one.</p>
+<h2>The First Static Sites</h2>
+<p>In the <a href="http://bgr.com/2015/07/24/1990s-websites-abandoned-still-running/">early years of the web</a>, when <a href="http://teamtreehouse.com/learn/html">HTML</a> was the only language for making websites, all sites were &#8220;static,&#8221; consisting of a simple hand-off of text and image files between a network server and a program on your computer. Opening a website was essentially just viewing files on someone else&#8217;s computer.</p>
+<p>This was fine when sites were small and looked like this:</p>
+<p><img src="http://blog.teamtreehouse.com/wp-content/uploads/2016/06/space-jam-website.jpg" alt="Space Jam website" /><br />
+(<em><a href="http://www.warnerbros.com/archive/spacejam/movie/jam.htm">Source</a></em>)</p>
+<p>But because websites consisted of files that linked to other files, whenever web developers wanted to add a page, change a link, or rename something they had to edit each file that referenced the file to be changed. As sites got increasingly complex this became untenable.</p>
+<h4>Enter Server-Side Languages</h4>
+<p>To reduce this manual effort, software designed to run on network servers was created. This software could interpret powerful new web languages, such as CGI, ASP, and PHP, and output them to HTML that the browser could read.</p>
+<p>PHP is one of the most popular <em><a href="http://www.codeconquest.com/website/client-side-vs-server-side/">server-side</a></em> languages today. It can do many things that HTML can&#8217;t, like include the content of one file inside another or perform mathematical calculations.</p>
+<p>The trade-off is that when you write a website in PHP, the code you upload to the server needs to be <em>translated</em> into HTML before it can be shown to the reader (since <a href="http://blog.teamtreehouse.com/html-css-still-relevant-designers-2016">HTML is what the browser knows</a>).</p>
+<p>Here is an example of what happens when you view a WordPress site (which relies on PHP):</p>
+<p><img src="http://blog.teamtreehouse.com/wp-content/uploads/2016/06/31-02_php_scheme.png" alt="" /><br />
+(<em><a href="https://minewebdesign.wordpress.com/2013/06/01/workflow-of-php/">Source</a></em>)</p>
+<p>Instead of HTML, the PHP file on the server looks something like this:</p>
+<pre><code>&lt;?php 
+$x = "Hello world!";
+$y = 'Hello world!';
+
+echo $x;
+echo "&lt;br&gt;"; 
+echo $y;
+?&gt;
+</code>
+</pre>
+<p>The web server translates it to HTML before sending it to the browser. This takes longer than if the server just had plain HTML pages on it.</p>
+<h2>Why Static Sites Are Back</h2>
+<p>One reason that static sites have re-emerged is because <a href="http://teamtreehouse.com/learn/javascript">JavaScript</a> (which doesn&#8217;t need to be interpreted by the server) is taking over many of the duties that server-side languages used to provide. Thanks to frameworks like <a href="https://teamtreehouse.com/library/jquery-basics">jQuery</a>, <a href="https://teamtreehouse.com/library/angular-basics">Angular</a>, and <a href="https://facebook.github.io/react/">React</a>, <strong>today&#8217;s &#8220;static&#8221; pages can do a lot of very dynamic things</strong> (our <a href="https://balsamiq.com/company/contact/">contact us page</a>, for example, is a static page created using React).</p>
+<p>But the main difference between today&#8217;s static sites and the original static sites of the 90s is the existence of new <strong>static site generators</strong> (which I&#8217;ll explain below) that perform a translation step similar to server-side software, but that happens <em>before</em> uploading, resulting in static files on the server.</p>
+<p>Static site files require no translation processing from the server, so they can be handed over to the web browser on your computer (a.k.a. the client) <strong>as-is</strong>, which is <strong>fast and uncomplicated</strong>.</p>
+<p>There&#8217;s a <a href="http://nilclass.com/courses/what-is-a-static-website/">bit more to it</a>, but let&#8217;s jump right into how to create a static site.</p>
+<h2>What You Need to Create a Static Site</h2>
+<p>To create a static site you should have a basic knowledge HTML and CSS, and <strong>be open to learning a few new tools</strong>.</p>
+<p>The static site workflow looks like this:</p>
+<p><img src="http://blog.teamtreehouse.com/wp-content/uploads/2016/06/static-diagram.png" alt="" /></p>
+<p>There are three main components:</p>
+<ol>
+<li><strong>A Markup Language</strong></li>
+<li><strong>A Style Language</strong></li>
+<li><strong>A Processing Tool (a.k.a. &#8220;Generator&#8221;)</strong></li>
+</ol>
+<p>Each component has several options, but the general workflow should be pretty much the same.</p>
+<h4>Markup Languages</h4>
+<p>Wait, you say, isn&#8217;t HTML <em>the</em> markup language for the web? Yes, but with static site generators you can use a variety of markup languages that are compiled (converted) to HTML. You can think of these languages as a kind of shorthand for HTML.</p>
+<p>There are two main reasons why you would use a markup language other than HTML:</p>
+<ol>
+<li>You want something more powerful (akin to a server-side language)</li>
+<li>You want something that&#8217;s easier to write and/or read</li>
+</ol>
+<p>Let&#8217;s look at one that gives you both, called <a href="http://jade-lang.com/">Jade</a>.</p>
+<p>In Jade, you can write this:</p>
+<pre><code class="language-jade">doctype html
+html(lang="en")
+  head
+    title= pageTitle
+  body
+    h1 Jade - node template engine
+    #container.col
+      if youAreUsingJade
+        p You are amazing
+      else
+        p Get on it!
+      p.
+        Jade is a terse and simple
+        templating language with a
+        strong focus on performance
+        and powerful features.</code></pre>
+<p>Instead of this:</p>
+<pre><code class="language-markup">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Jade&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Jade - node template engine&lt;/h1&gt;
+    &lt;div id="container" class="col"&gt;
+      &lt;p&gt;You are amazing&lt;/p&gt;
+      &lt;p&gt;
+        Jade is a terse and simple
+        templating language with a
+        strong focus on performance
+        and powerful features.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p>Notice that it doesn&#8217;t require the HTML-style angle brackets (e.g., &lt;tag&gt;&lt;/tag&gt;). It relies on the indentation hierarchy to determine which elements contain others. This makes it more compact and easy to read.</p>
+<p>Also, in the example above there is an if-else statement, like those found in server-side programming languages. Not shown is the ability include (&#8220;extend&#8221;) one Jade file in another. Both of these are things that plain HTML can&#8217;t do.</p>
+<p>Other languages that are similar include <a href="http://haml.info/">HAML</a>, <a href="http://slim-lang.com/">Slim</a>, and <a href="http://ejs.co/">EJS</a>.</p>
+<p>Another popular language for writing simple HTML is <a href="https://daringfireball.net/projects/markdown/">Markdown</a> (which I used to write this post). It looks like this:</p>
+<pre><code class="language-md"># this is a big heading
+
+this is a regular paragraph of text with a [link](http://example.com).
+
+here is a list:
+
+* item one
+* item two
+</code></pre>
+<p>It&#8217;s important to note that Markdown is not a complete replacement for HTML like Jade and HAML are. Markdown is mostly for the <strong>content part of your HTML</strong> file, the stuff that goes inside the &lt;body&gt; tags.</p>
+<p>Markdown is best for blog posts, documentation articles, and other content that is mostly text. If you use Markdown you&#8217;ll probably also need to create some &#8220;templates&#8221; using a language like <a href="https://github.com/Shopify/liquid/wiki">Liquid</a> or <a href="http://handlebarsjs.com/">Handlebars</a>. These templates provide the structure around the content that the Markdown goes into.</p>
+<p>In summary, markup languages like those listed above provide the following advantages over HTML:</p>
+<ul>
+<li>Ability to insert references to other files</li>
+<li>Templates for common page types</li>
+<li>Simplified syntax for better readability</li>
+</ul>
+<h4>Style Languages</h4>
+<p>Similar to the HTML variations listed above, CSS has its own alternatives that extend the basic functionality of CSS for added power and flexibility. Fortunately, there are fewer options here.</p>
+<p>The two most used are <a href="http://sass-lang.com/"><strong>SASS</strong></a> and <a href="http://lesscss.org/"><strong>Less</strong></a>. They are quite similar. We&#8217;ll use SASS in the examples.</p>
+<p>The benefits and features are similar to markup languages. The ability to use variables is especially useful. You can define all your colors and fonts as variables, for example, so that updating them is a snap. A few other CSS-specific benefits are automatic <a href="http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm">browser prefixing</a> and <a href="https://en.wikipedia.org/wiki/Minification_(programming)">minification</a> and <a href="https://en.wikipedia.org/wiki/Concatenation">concatenation</a> of files.</p>
+<p>Variables in SASS look like this:</p>
+<pre><code class="language-scss">$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}</code></pre>
+<p>Which becomes this:</p>
+<pre><code class="language-css">body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}</code></pre>
+<p>Whenever you want to change the font and color you can just change the property of the variable. This can save a ton of time for large sites.</p>
+<p>There are many more things that SASS can do. <a href="https://teamtreehouse.com/library/sass-basics">Learn SASS on Treehouse</a>.</p>
+<h4>The Generator</h4>
+<p>Now to the thing that brings them all together. For this you&#8217;ll need to install a program on your computer to translate the markup and style code you write into HTML and CSS.</p>
+<p>Some popular generators are <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://gohugo.io/">Hugo</a>, <a href="https://harpjs.com/">Harp</a>, and <a href="http://hammerformac.com/index.html">Hammer</a>.</p>
+<p>There are a few considerations, such as:</p>
+<ul>
+<li>What markup and style languages do you want to write in (not all generators support all languages)</li>
+<li>The size of your site (affects how long compiling takes)</li>
+<li>The type of website you&#8217;re building (Jekyll and Hugo are optimized for blogs, for example)</li>
+<li>How comfortable you are with running terminal commands from a command line (many require them. Some, like <a href="http://hammerformac.com/index.html">Hammer</a>, don&#8217;t.)</li>
+</ul>
+<p>Static site generators typically <strong>run in the background while you write</strong> your markup and styles and compile to HTML and CSS when you save. You often don&#8217;t interact with them except to start and stop them.</p>
+<p><img src="http://blog.teamtreehouse.com/wp-content/uploads/2016/06/hugo-terminal.png" alt="Hugo running in the terminal" /><br />
+(<em><a href="http://gohugo.io/">Hugo</a> running in the terminal</em>)</p>
+<p>Many also create a local web server (with a URL like &#8220;http://localhost:1234&#8221;) so that you can preview your site on your computer before uploading it.</p>
+<p>Some text editors even have plugins (like this <a href="https://atom.io/packages/sass-autocompile">SASS plugin for Atom</a>) that compile markup and style languages as you write, so you could even get away with not using a separate generator.</p>
+<p><em>(For more on using Jekyll to create a blog, see this <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">in-depth tutorial</a>.)</em></p>
+<h4>Hosting</h4>
+<p>The final piece of the puzzle is finding a place to put your files on the web.</p>
+<p>Good news! Hosting your static site on the web is probably easier than hosting a dynamic site. There are no requirements for the server to be running certain software (like PHP) or even have a specific operating system. This often means that hosting is cheaper, or even free, because the resources needed are fewer. If you already have a host that you like, you don&#8217;t need to change anything.</p>
+<p>If you don&#8217;t already host your site somewhere, I suggest reading <a href="http://blog.teamtreehouse.com/using-github-pages-to-host-your-website">Using GitHub Pages To Host Your Website</a>. Putting your files on GitHub allows you to track all the changes you make to your site and doesn&#8217;t require FTP. <a href="https://aws.amazon.com/s3/">Amazon S3</a> is another popular option for static sites.</p>
+<h2>Static vs. Dynamic: Which is Better For You?</h2>
+<p>As with most things, the answer is that <strong>it depends</strong>.</p>
+<p>Here are some pros and cons of static sites.</p>
+<p>Pros:</p>
+<ul>
+<li>Static websites generally load faster</li>
+<li>Newer markup languages can be easier to write once you take the time to learn them</li>
+<li>Fewer web server requirements and lower hosting costs</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>A bit of a learning curve even if you&#8217;re already familiar with HTML and CSS</li>
+<li>Transitioning from an existing site can be a challenge (<a href="http://konigi.com/blog/hello-hugo/">some tips here</a>)</li>
+<li>Unclear which new technologies will continue to be supported in the long term</li>
+</ul>
+<p>Regardless, these new technologies highlight a continuing trend toward lower barriers to entry for web developers. Languages like Jade and Markdown and technologies like GitHub facilitate more intuitive code writing and easier collaboration for the web.</p>
+<p>Static sites may not revolutionize the web, but they are clearly an evolution of it. Hopefully this post has helped you to understand their basic principles and context. Your comments are welcome!</p>
+<p>(<em>Much thanks to <a href="https://balsamiq.com/company/#peldi">Peldi</a> and <a href="https://balsamiq.com/company/#stefano">Stefano</a> for the technical review!</em>)</p>
+<hr />
+<p><em>Leon Barnard is a writer and designer at <a href="https://balsamiq.com/">Balsamiq</a>. He contributes to the <a href="http://blogs.balsamiq.com/ux/">Balsamiq UX blog</a> and curates the <a href="http://blogs.balsamiq.com/champions/">Balsamiq Champions blog</a> about how and why people use Balsamiq Mockups.<br />
+</em></p>
+<p style="padding: 20px 26px; border-radius: 5px; border-top-width: 4px; border-top-style: solid; border-top-color: #5fcf80; margin: 36px 0px; font-size: 14px; text-align: center; background-color: #fefefe;"><strong>Start learning to code today with a <a href="https://teamtreehouse.com/subscribe/plans?cid=6872&amp;utm_source=popular-43-beginner-guide-responsive-web-design&amp;trial=yes" target="_blank">free trial on Treehouse</a>.</strong></p>
+<!-- AddThis Advanced Settings above via filter on the_content --><!-- AddThis Advanced Settings below via filter on the_content --><!-- AddThis Advanced Settings generic via filter on the_content --><!-- AddThis Share Buttons above via filter on the_content --><!-- AddThis Share Buttons below via filter on the_content --><div class="at-below-post addthis_tool" data-url="http://blog.teamtreehouse.com/getting-started-static-sites"></div><!-- AddThis Share Buttons generic via filter on the_content --><!-- AddThis Related Posts below via filter on the_content --><div class="at-below-post-recommended addthis_tool" ></div><!-- AddThis Related Posts generic via filter on the_content -->
+        <ul class="tag-bar"><li><a href="http://blog.teamtreehouse.com/tag/css-preprocessors" rel="tag">css preprocessors</a></li><li><a href="http://blog.teamtreehouse.com/tag/github" rel="tag">github</a></li><li><a href="http://blog.teamtreehouse.com/tag/haml" rel="tag">Haml</a></li><li><a href="http://blog.teamtreehouse.com/tag/markdown" rel="tag">markdown</a></li><li><a href="http://blog.teamtreehouse.com/tag/markup" rel="tag">markup</a></li><li><a href="http://blog.teamtreehouse.com/tag/sass" rel="tag">sass</a></li><li><a href="http://blog.teamtreehouse.com/tag/static-sites" rel="tag">static sites</a></li><li><a href="http://blog.teamtreehouse.com/tag/web" rel="tag">web</a></li></ul>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--MixPanel-->
+  <script type="text/javascript"> mixpanel.track('Viewed Blog Post', { "Title":"Getting Started with Static Sites", });</script>
+
+
+<section class="page-content th-comments">
+  <div class="row">
+    <div class="skinny-read">
+      
+<!-- You can start editing here. -->
+
+  <h3 id="comments">
+    9 Responses to &#8220;Getting Started with Static Sites&#8221;  </h3>
+
+  <div class="navigation">
+    <div class="alignleft"></div>
+    <div class="alignright"></div>
+  </div>
+
+  <ol class="commentlist">
+    <li class="comment even thread-even depth-1" id="comment-418155">
+    <div id="div-comment-418155" class="comment-body">
+    <div class="comment-author vcard">
+  <cite class="fn">iftikhar ali</cite> on  <a href="http://blog.teamtreehouse.com/getting-started-static-sites#comment-418155">
+    August 7, 2017 at 9:25 pm</a> said:  </div>
+  
+  <p>i will create any type of static website.<br />
+TWEET TO FOLLOWERS <a href="http://www.fiverr.com/s/a656wz?utm_source=com.google.android.apps.docs_Mobile" rel="nofollow">http://www.fiverr.com/s/a656wz?utm_source=com.google.android.apps.docs_Mobile</a></p>
+
+  <div class="reply">
+  <a rel='nofollow' class='comment-reply-link' href='http://blog.teamtreehouse.com/getting-started-static-sites?replytocom=418155#respond' onclick='return addComment.moveForm( "div-comment-418155", "418155", "respond", "26219" )' aria-label='Reply to iftikhar ali'>Reply</a>  </div>
+    </div>
+  </li><!-- #comment-## -->
+  <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-393625">
+    <div id="div-comment-393625" class="comment-body">
+    <div class="comment-author vcard">
+  <cite class="fn"><a href='https://www.kireth.com/' rel='external nofollow' class='url'>Mark</a></cite> on  <a href="http://blog.teamtreehouse.com/getting-started-static-sites#comment-393625">
+    May 30, 2017 at 7:45 am</a> said:  </div>
+  
+  <p>We Do Both I build sites on joomla but deploy them a static sites. Best of both worlds</p>
+
+  <div class="reply">
+  <a rel='nofollow' class='comment-reply-link' href='http://blog.teamtreehouse.com/getting-started-static-sites?replytocom=393625#respond' onclick='return addComment.moveForm( "div-comment-393625", "393625", "respond", "26219" )' aria-label='Reply to Mark'>Reply</a>  </div>
+    </div>
+  </li><!-- #comment-## -->
+  <li class="comment even thread-even depth-1" id="comment-368944">
+    <div id="div-comment-368944" class="comment-body">
+    <div class="comment-author vcard">
+  <cite class="fn">Pete</cite> on  <a href="http://blog.teamtreehouse.com/getting-started-static-sites#comment-368944">
+    March 11, 2017 at 8:02 pm</a> said:  </div>
+  
+  <p>I love the idea of going with static and there are many clients that could really benefit. With regard to SEO, the speedy loading of web pages are becoming more and more critical everyday. As you mentioned, static sites usually load fast and there is much less possibility of problems. Also, more secure. I keep preaching to my clients, &#8220;not every site needs WordPress,&#8221; but going static is usually a tough sell. </p>
+<p>I love WP, but sometimes there&#8217;s just no need for it. Yes, I understand much can be done with site optimization and caching, but there&#8217;s so much more to consider!</p>
+
+  <div class="reply">
+  <a rel='nofollow' class='comment-reply-link' href='http://blog.teamtreehouse.com/getting-started-static-sites?replytocom=368944#respond' onclick='return addComment.moveForm( "div-comment-368944", "368944", "respond", "26219" )' aria-label='Reply to Pete'>Reply</a>  </div>
+    </div>
+  </li><!-- #comment-## -->
+  <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-359743">
+    <div id="div-comment-359743" class="comment-body">
+    <div class="comment-author vcard">
+  <cite class="fn"><a href='https://inspiritana.org' rel='external nofollow' class='url'>Cale</a></cite> on  <a href="http://blog.teamtreehouse.com/getting-started-static-sites#comment-359743">
+    February 10, 2017 at 5:35 am</a> said:  </div>
+  
+  <p>Thank you so much for this great post, very helpful and giving a lot of insight on the topic.</p>
+
+  <div class="reply">
+  <a rel='nofollow' class='comment-reply-link' href='http://blog.teamtreehouse.com/getting-started-static-sites?replytocom=359743#respond' onclick='return addComment.moveForm( "div-comment-359743", "359743", "respond", "26219" )' aria-label='Reply to Cale'>Reply</a>  </div>
+    </div>
+  </li><!-- #comment-## -->
+  <li class="comment even thread-even depth-1" id="comment-273672">
+    <div id="div-comment-273672" class="comment-body">
+    <div class="comment-author vcard">
+  <cite class="fn"><a href='http://www.futurehosting.com' rel='external nofollow' class='url'>Matt Davis</a></cite> on  <a href="http://blog.teamtreehouse.com/getting-started-static-sites#comment-273672">
+    July 28, 2016 at 11:17 am</a> said:  </div>
+  
+  <p>Nice post. I personally am a big fan of static sites, although I realize they are not for everyone. I would also recommend checking out a few other less common static site generators such as Journey, Assemble, and Metalsmith. It&#8217;s a big world out there for people who want something different than Jekyll.</p>
+
+  <div class="reply">
+  <a rel='nofollow' class='comment-reply-link' href='http://blog.teamtreehouse.com/getting-started-static-sites?replytocom=273672#respond' onclick='return addComment.moveForm( "div-comment-273672", "273672", "respond", "26219" )' aria-label='Reply to Matt Davis'>Reply</a>  </div>
+    </div>
+  </li><!-- #comment-## -->
+  <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-264512">
+    <div id="div-comment-264512" class="comment-body">
+    <div class="comment-author vcard">
+  <cite class="fn"><a href='http://jrwebmd.com' rel='external nofollow' class='url'>James Parker</a></cite> on  <a href="http://blog.teamtreehouse.com/getting-started-static-sites#comment-264512">
+    July 16, 2016 at 5:16 am</a> said:  </div>
+  
+  <p>Thanks for the article. It was really a great article and helpful for the web developers. I will surely share this to all the web developers. Please keep writing articles like this one. <a href="http://jrwebmd.com" rel="nofollow">http://jrwebmd.com</a></p>
+
+  <div class="reply">
+  <a rel='nofollow' class='comment-reply-link' href='http://blog.teamtreehouse.com/getting-started-static-sites?replytocom=264512#respond' onclick='return addComment.moveForm( "div-comment-264512", "264512", "respond", "26219" )' aria-label='Reply to James Parker'>Reply</a>  </div>
+    </div>
+  </li><!-- #comment-## -->
+  <li class="comment even thread-even depth-1" id="comment-253974">
+    <div id="div-comment-253974" class="comment-body">
+    <div class="comment-author vcard">
+  <cite class="fn">Peretros Kanon</cite> on  <a href="http://blog.teamtreehouse.com/getting-started-static-sites#comment-253974">
+    June 29, 2016 at 9:17 am</a> said:  </div>
+  
+  <p>Thanks a lot Leon Barnard and Team Tree House. This article has given me the big picture perspective I needed on creating static websites. I was a bit confuse. Now I know what to do and where to focus my attention on in terms of sharpening my front-end development skills. Thanks again!</p>
+
+  <div class="reply">
+  <a rel='nofollow' class='comment-reply-link' href='http://blog.teamtreehouse.com/getting-started-static-sites?replytocom=253974#respond' onclick='return addComment.moveForm( "div-comment-253974", "253974", "respond", "26219" )' aria-label='Reply to Peretros Kanon'>Reply</a>  </div>
+    </div>
+  </li><!-- #comment-## -->
+  <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-253041">
+    <div id="div-comment-253041" class="comment-body">
+    <div class="comment-author vcard">
+  <cite class="fn">Farzad YZ</cite> on  <a href="http://blog.teamtreehouse.com/getting-started-static-sites#comment-253041">
+    June 27, 2016 at 8:47 pm</a> said:  </div>
+  
+  <p>I recently tested some of these generators such as jekyll and Hugo. Its somehow unclear what they are trying to do but as a global overview I&#8217;d rather choose static web pages cause the are a lot faster and would be easier to responsively designed templates.</p>
+
+  <div class="reply">
+  <a rel='nofollow' class='comment-reply-link' href='http://blog.teamtreehouse.com/getting-started-static-sites?replytocom=253041#respond' onclick='return addComment.moveForm( "div-comment-253041", "253041", "respond", "26219" )' aria-label='Reply to Farzad YZ'>Reply</a>  </div>
+    </div>
+  </li><!-- #comment-## -->
+  <li class="comment even thread-even depth-1" id="comment-251546">
+    <div id="div-comment-251546" class="comment-body">
+    <div class="comment-author vcard">
+  <cite class="fn"><a href='http://www.smanikdesign.com' rel='external nofollow' class='url'>Jitesh Manaktala</a></cite> on  <a href="http://blog.teamtreehouse.com/getting-started-static-sites#comment-251546">
+    June 25, 2016 at 12:07 am</a> said:  </div>
+  
+  <p>Excellent post! I would say that your post is very valuable for all web developers. Thanks for sharing with us.</p>
+
+  <div class="reply">
+  <a rel='nofollow' class='comment-reply-link' href='http://blog.teamtreehouse.com/getting-started-static-sites?replytocom=251546#respond' onclick='return addComment.moveForm( "div-comment-251546", "251546", "respond", "26219" )' aria-label='Reply to Jitesh Manaktala'>Reply</a>  </div>
+    </div>
+  </li><!-- #comment-## -->
+  </ol>
+
+  <div class="navigation">
+    <div class="alignleft"></div>
+    <div class="alignright"></div>
+  </div>
+ 
+
+<div id="respond">
+
+<h3>Leave a Reply</h3>
+
+<div id="cancel-comment-reply">
+  <small><a rel="nofollow" id="cancel-comment-reply-link" href="/getting-started-static-sites#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://blog.teamtreehouse.com/wp-comments-post.php" method="post" id="commentform">
+
+
+<p class="three-quarter"><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<label for="author"><small>Name <em>*</em></small></label></p>
+
+<p class="three-quarter"><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+<label for="email"><small>Email Address (will not be published) <em>*</em></small></label></p>
+
+<p class="three-quarter"><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; &lt;pre lang=&quot;&quot; line=&quot;&quot; escaped=&quot;&quot; cssfile=&quot;&quot;&gt; </code></small></p>-->
+
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+
+<p style="display: inline-block;"><input style="width: 100%;" class="button" name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type='hidden' name='comment_post_ID' value='26219' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="4f074aa5ee" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="93"/></p>
+</form>
+
+</div>
+
+    </div>
+  </div>
+</section>
+
+<section class="treehouse-ad post-26219 post type-post status-publish format-standard has-post-thumbnail hentry category-learn tag-css-preprocessors tag-github tag-haml tag-markdown tag-markup tag-sass tag-static-sites tag-web">
+
+  <div class="row">
+
+    <div class="skinny-read">
+
+      <div class="block">
+        <img src="http://blog.teamtreehouse.com/wp-content/themes/treehouse-treehouse-blog-reboot-d52be032409979219bf3dc804312e918a26a251c/img/treehouse-ads/web-design.png" alt="" />      </div>
+
+      <div class="block">
+        <h2>
+          Learning to code can be fun!          </h2>
+        <p>
+          Get started today with a free trial and discover why thousands of students are choosing Treehouse to learn about web development, design, and business.        </p>
+        <a href="
+        https://teamtreehouse.com/subscribe/plans?trial=yes&cid=4042        " class="button secondary">Learn more</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="newsletter">
+
+  <div class="row">
+
+    <div class="newsletter-embed">
+
+  <h2>Stay current</h2>
+
+  <p>Sign up for our newsletter, and we'll send you news and tutorials on web design, coding, business, and more!</p>
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//teamtreehouse.us1.list-manage.com/subscribe/post?u=6cd557f316f6c6b5deccf9bc0&amp;id=a9464578f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+<div class="mc-field-group">
+	<input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_6cd557f316f6c6b5deccf9bc0_a9464578f3" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button primary subscribe"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+</div>
+
+  </div>
+
+</section>
+
+<section>
+
+  <footer id="footer">
+
+    <div class="treehouse-typelockup"></div>
+
+    <p>
+      &copy;2017 Treehouse Island, Inc.
+      <br>
+      <br>
+      <a href="http://teamtreehouse.com/about">About</a> &bull;
+      <a href="https://teamtreehouse.com/jobs">Careers</a> &bull;
+      <a href="http://blog.teamtreehouse.com">Blog</a> &bull;
+      <a href="https://teamtreehouse.com/affiliate-program">Affiliate Program</a> &bull;
+      <a href="http://teamtreehouse.com/terms">Terms</a> &bull;
+      <a href="http://teamtreehouse.com/privacy">Privacy</a> &bull;
+      <a href="http://treehouse-marketing.s3.amazonaws.com/press-kit/Treehouse-PressKit-201601.pdf">Press Kit</a> &bull;
+      <a href="http://teamtreehouse.com/support">Contact</a>
+    </p>
+
+    <ul class="social">
+      <li><a href="http://twitter.com/treehouse" class="twitter"></a></li>
+      <li><a href="http://youtube.com/gotreehouse" class="youtube"></a></li>
+      <li><a href="http://facebook.com/teamtreehouse" class="facebook"></a></li>
+      <li><a href="http://plus.google.com/110278003536476194286/posts" class="google-plus"></a></li>
+      <li><a href="http://linkedin.com/company/treehouse-island-inc-" class="linkedin"></a></li>
+      <li><a href="http://instagram.com/teamtreehouse" class="instagram"></a></li>
+    </ul>
+
+    <div class="stripes"></div>
+
+  </footer>
+
+</section>
+
+<div class="modal-wrapper">
+
+  <div class="modal">
+
+    <div class="newsletter-embed">
+
+  <h2>Stay current</h2>
+
+  <p>Sign up for our newsletter, and we'll send you news and tutorials on web design, coding, business, and more!</p>
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//teamtreehouse.us1.list-manage.com/subscribe/post?u=6cd557f316f6c6b5deccf9bc0&amp;id=a9464578f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+<div class="mc-field-group">
+	<input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_6cd557f316f6c6b5deccf9bc0_a9464578f3" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button primary subscribe"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+</div>
+
+    <a href="#" id="close-modal">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="120px" height="119.999px" viewBox="0 0 120 119.999" enable-background="new 0 0 120 119.999" xml:space="preserve">
+      <path fill="#D4D9DD" d="M117,92.231L85,59.504l32-32.727c4-3.967,4-9.917,0-13.884l-11-9.917c-4-3.967-10-3.967-14,0L60,35.702
+        L28,2.975c-4-3.967-10-3.967-14,0L3,12.893c-4,3.967-4,9.917,0,13.884l32,32.727L3,92.231c-4,3.967-4,9.917,0,13.884l11,10.909
+        c4,3.967,10,3.967,14,0l32-32.727l32,32.727c4,3.967,10,3.967,14,0l11-9.917C121,102.149,121,96.198,117,92.231z"/>
+      </svg>
+    </a>
+
+  </div>
+
+</div>
+
+<script data-cfasync="false" type="text/javascript">if (window.addthis_product === undefined) { window.addthis_product = "wpwt"; } if (window.wp_product_version === undefined) { window.wp_product_version = "wpwt-3.1.1"; } if (window.wp_blog_version === undefined) { window.wp_blog_version = "4.5.4"; } if (window.addthis_share === undefined) { window.addthis_share = {}; } if (window.addthis_config === undefined) { window.addthis_config = {"data_track_clickback":true,"ui_atversion":"300"}; } if (window.addthis_plugin_info === undefined) { window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Website Tools by AddThis","plugin_version":"3.1.1","plugin_mode":"AddThis","anonymous_profile_id":"wp-78f2e3ad67d3b7a4e1cd19aeb4c7debe","page_info":{"template":"posts","post_type":""},"sharing_enabled_on_post_via_metabox":false}; } 
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          if (typeof window.addthis_layers !== 'undefined' && Object.getOwnPropertyNames(window.addthis_layers).length > 0) {
+                            window.addthis.layers(window.addthis_layers);
+                          }
+                          if (Array.isArray(window.addthis_layers_tools)) {
+                            for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                              window.addthis.layers(window.addthis_layers_tools[i]);
+                            }
+                          }
+                        }
+                     },1000)
+                    }());
+                </script><script data-cfasync="false" type="text/javascript">if (window.addthis_product === undefined) { window.addthis_product = "wpp"; } if (window.wp_product_version === undefined) { window.wp_product_version = "wpp-6.1.1"; } if (window.wp_blog_version === undefined) { window.wp_blog_version = "4.5.4"; } if (window.addthis_share === undefined) { window.addthis_share = {}; } if (window.addthis_config === undefined) { window.addthis_config = {"data_track_clickback":true,"ui_atversion":"300"}; } if (window.addthis_plugin_info === undefined) { window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Share Buttons by AddThis","plugin_version":"6.1.1","plugin_mode":"AddThis","anonymous_profile_id":"wp-78f2e3ad67d3b7a4e1cd19aeb4c7debe","page_info":{"template":"posts","post_type":""},"sharing_enabled_on_post_via_metabox":false}; } 
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          if (typeof window.addthis_layers !== 'undefined' && Object.getOwnPropertyNames(window.addthis_layers).length > 0) {
+                            window.addthis.layers(window.addthis_layers);
+                          }
+                          if (Array.isArray(window.addthis_layers_tools)) {
+                            for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                              window.addthis.layers(window.addthis_layers_tools[i]);
+                            }
+                          }
+                        }
+                     },1000)
+                    }());
+                </script><script type='text/javascript' src='https://s7.addthis.com/js/300/addthis_widget.js?ver=4.5.4#pubid=ra-56f10d13f732b4b4'></script>
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-content/plugins/wp-syntax/js/wp-syntax.js?ver=1.1'></script>
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-content/themes/treehouse-treehouse-blog-reboot-d52be032409979219bf3dc804312e918a26a251c/js/vendor/jquery-1.11.3.min.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-content/themes/treehouse-treehouse-blog-reboot-d52be032409979219bf3dc804312e918a26a251c/js/vendor/jquery.fitvids.js?ver=1.1'></script>
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-content/themes/treehouse-treehouse-blog-reboot-d52be032409979219bf3dc804312e918a26a251c/js/main.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-includes/js/wp-embed.min.js?ver=4.5.4'></script>
+<script type='text/javascript' src='http://blog.teamtreehouse.com/wp-content/plugins/akismet/_inc/form.js?ver=4.0'></script>
+
+
+</div> <!-- / .page-container -->
+</body>
+
+</html>
+

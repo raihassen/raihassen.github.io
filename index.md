@@ -111,3 +111,9 @@ _Also take a look at the sites below, which have sample questions which are quit
 + <http://www.geeksforgeeks.org/bloomberg-interview-experience-set-4-entry-level-software-engineeer/>
 + <https://www.toptal.com/c-plus-plus/interview-questions>
 + <http://www.geeksforgeeks.org/bloomberg-interview-experience-set-5-entry-level-software-engineer/>
+
+# Twitter
+* [Twitter Interview questions on Interviewbit.com] (https://www.interviewbit.com/search/?q%5B%5D=Twitter)
+* [Twitter Careers Page](https://careers.twitter.com/en.html)
+* [Twitter Developer Blog](https://blog.twitter.com/developer/en_us.html)
+* [Interview question on Glassdoor](https://www.glassdoor.co.uk/Interview/Twitter-Interview-Questions-E100569.htm)

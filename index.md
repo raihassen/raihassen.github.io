@@ -1,7 +1,7 @@
 Preparing for Tech Interviews
 ======
 # Facebook
-
+* [Facebook Interview questions on Interviewbit.com](https://www.interviewbit.com/search/?q%5B%5D=Facebook)
 * [Facebook Code Lab](https://codelab.interviewbit.com/index/)
 
 * [Facebook Engineering Page](https://www.facebook.com/Engineering/notes)
